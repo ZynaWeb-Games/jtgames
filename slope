@@ -1,0 +1,77 @@
+<html><head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(196, 196, 196);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(159, 159, 159);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ff0000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #a4a4a4;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body backgroundcolor="black">
+
+<ul>
+  
+  <li><a href="https://jtgames.zynaweb.com/home">Home</a></li>
+  <li><a href="https://jtgames.zynaweb.com/news">News</a></li>
+  <li><a href="https://jtgames.zynaweb.com/holiday">Holiday Countdown</a></li>
+  <li class="dropdown">
+    <a href="https://jtgames.zynaweb.com/games" class="dropbtn">Games</a>
+    <div class="dropdown-content">
+      <a href="https://jtgames.zynaweb.com/games/002/swoop">Swoop</a>
+      <a href="https://jtgames.zynaweb.com/games/003/swerve">Swerve</a>
+      <a href="https://jtgames.zynaweb.com/games/004/space-buggy">Space Buggy</a>
+      <a href="https://jtgames.zynaweb.com/games/005/run-3">Run 3</a>
+      <a href="https://jtgames.zynaweb.com/games/006/subway-surfers">Subway Surfers</a>
+      <a href="#">slope</a>
+  <li><a href="https://jtgames.zynaweb.com/premium/">Premium</a></li>
+    </div>
+  </li>
+</ul>
+<iframe src="https://script.google.com/macros/s/AKfycbxgYCjCS386leDDHz67N0zmhJ4OzxFviLXUGewFQpyFiIGeoqS7mCBy/exec" width="500%" height="500">
+    </iframe>
+</html>
